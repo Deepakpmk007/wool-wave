@@ -1,4 +1,4 @@
-const baseUrl: string = "http://localhost:3000/";
+const baseUrl: string = "https://www.theknottyones.com/"
 
 export async function dynamicBlurDataUrl(url: string) {
   const base64str = await fetch(
